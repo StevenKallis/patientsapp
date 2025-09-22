@@ -1,0 +1,1355 @@
+{
+    "table": "Notes",
+    "rows": [
+        {
+            "note_id": 10008,
+            "patient_id": 195,
+            "note_type": "Nursing",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-11T15:46:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "e43805f6-aaf9-49ff-a99e-f385ea7d5aaf"
+        },
+        {
+            "note_id": 10007,
+            "patient_id": 195,
+            "note_type": "Consult",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-06-15T03:40:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "4a603f9c-5892-457e-99c2-c4d6d5b7ac1d"
+        },
+        {
+            "note_id": 10009,
+            "patient_id": 195,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-02T17:04:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "b47b742a-5072-4326-8df8-2da2299e0ec1"
+        },
+        {
+            "note_id": 10002,
+            "patient_id": 195,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-15T23:16:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "39dd23f8-9583-4d69-ab64-38daa2572468"
+        },
+        {
+            "note_id": 10003,
+            "patient_id": 195,
+            "note_type": "Admission",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-19T18:29:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "45a87d2a-0d56-4742-b986-73f4aa0e14df"
+        },
+        {
+            "note_id": 10006,
+            "patient_id": 195,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-07T18:35:00+00:00",
+            "content": "Cough persists, but afebrile. Continue current plan and monitor.",
+            "encounter_id": "eef7dd1b-b98a-4e9c-b6e2-dd4e421bece1"
+        },
+        {
+            "note_id": 10005,
+            "patient_id": 195,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-08T18:47:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "c92fa878-eb7d-475d-8ec0-3e852ba5365a"
+        },
+        {
+            "note_id": 10000,
+            "patient_id": 195,
+            "note_type": "Consult",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-21T15:01:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "dfe0d9d4-2481-4b0a-bdc0-6a07c9522c36"
+        },
+        {
+            "note_id": 10001,
+            "patient_id": 195,
+            "note_type": "Discharge",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-24T01:34:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "3b7cdf8e-469c-4eb9-af40-bbca087aab80"
+        },
+        {
+            "note_id": 10004,
+            "patient_id": 195,
+            "note_type": "Progress",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-09-08T14:14:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "402eeb61-802e-4ed3-af11-77cfaba70e84"
+        },
+        {
+            "note_id": 10013,
+            "patient_id": 196,
+            "note_type": "Vitals",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-12T03:11:00+00:00",
+            "content": "BP 155/75 mmHg, HR 83 bpm, Temp 36.5\u00b0C, RR 19/min, SpO2 96%.",
+            "encounter_id": "1d734b2b-a453-4cf9-8be6-0b770289d1f5"
+        },
+        {
+            "note_id": 10017,
+            "patient_id": 196,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-15T15:56:00+00:00",
+            "content": "Administered Amoxicillin 250 mcg at 16:01. No adverse reactions observed.",
+            "encounter_id": "83c9fbb4-e67f-4de6-9a76-8089b515995a"
+        },
+        {
+            "note_id": 10011,
+            "patient_id": 196,
+            "note_type": "Consult",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-18T20:11:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "015a4768-f8d2-41dd-8615-88f8e2efd194"
+        },
+        {
+            "note_id": 10015,
+            "patient_id": 196,
+            "note_type": "Medication",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-02T19:18:00+00:00",
+            "content": "Started Omeprazole per protocol. Next dose due at 03:18.",
+            "encounter_id": "a25d29e4-3202-4416-b84d-bd5fe4f7295a"
+        },
+        {
+            "note_id": 10012,
+            "patient_id": 196,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-20T18:59:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "c2321341-d088-41b7-8b91-63b8b4aa183c"
+        },
+        {
+            "note_id": 10018,
+            "patient_id": 196,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-23T23:47:00+00:00",
+            "content": "Administered Omeprazole 500 mcg at 23:52. No adverse reactions observed.",
+            "encounter_id": "8b87d198-6fda-4db9-a0ed-b1e7509a8b3d"
+        },
+        {
+            "note_id": 10010,
+            "patient_id": 196,
+            "note_type": "Lab",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-08-13T23:30:00+00:00",
+            "content": "CMP: Na 137 mmol/L, K 3.6 mmol/L, Cr 1.08 mg/dL. Within acceptable range.",
+            "encounter_id": "85d148a9-13b6-4894-b9fd-6800195ad1cb"
+        },
+        {
+            "note_id": 10016,
+            "patient_id": 196,
+            "note_type": "Consult",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-31T19:13:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "e1c1f6aa-a273-4506-9ab8-4fcd00c2a6df"
+        },
+        {
+            "note_id": 10014,
+            "patient_id": 196,
+            "note_type": "Consult",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-08-31T19:15:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "55d3f9a4-d7c1-42b1-b8ae-388d02cc6322"
+        },
+        {
+            "note_id": 10019,
+            "patient_id": 196,
+            "note_type": "Admission",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-09-14T04:29:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "8cf322f6-896a-469c-8e66-5488caed587b"
+        },
+        {
+            "note_id": 10020,
+            "patient_id": 197,
+            "note_type": "Discharge",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-06-05T15:38:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "6a38d2e8-44be-4039-b13c-3de4eb9ac79f"
+        },
+        {
+            "note_id": 10028,
+            "patient_id": 197,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-23T03:29:00+00:00",
+            "content": "Administered Ibuprofen 1000 mg at 03:34. No adverse reactions observed.",
+            "encounter_id": "74d0d94c-63a8-4e75-8d5a-0e452bbb06b3"
+        },
+        {
+            "note_id": 10024,
+            "patient_id": 197,
+            "note_type": "Progress",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-02T16:41:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "ab89bd4b-0de8-4c6d-84ea-c360922b5d13"
+        },
+        {
+            "note_id": 10029,
+            "patient_id": 197,
+            "note_type": "Discharge",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-19T18:48:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "28e1af9b-f79d-4400-9efb-e05f023f645e"
+        },
+        {
+            "note_id": 10026,
+            "patient_id": 197,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-09T15:08:00+00:00",
+            "content": "Started Metformin per protocol. Next dose due at 23:08.",
+            "encounter_id": "b5390dba-02ec-45ad-b2b2-5606374ed74d"
+        },
+        {
+            "note_id": 10027,
+            "patient_id": 197,
+            "note_type": "Progress",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-08-13T20:30:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "49fa001e-5503-4c82-bd6c-d75520036837"
+        },
+        {
+            "note_id": 10023,
+            "patient_id": 197,
+            "note_type": "Vitals",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-21T23:21:00+00:00",
+            "content": "Stable vitals. No acute distress. SpO2 100% on room air.",
+            "encounter_id": "b8b982ed-749b-40ec-9a4f-a15d85bc06cf"
+        },
+        {
+            "note_id": 10021,
+            "patient_id": 197,
+            "note_type": "Discharge",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-25T17:23:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "e1d56421-a902-4b93-a058-412d412b537e"
+        },
+        {
+            "note_id": 10022,
+            "patient_id": 197,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-27T01:57:00+00:00",
+            "content": "Started Metformin per protocol. Next dose due at 09:57.",
+            "encounter_id": "7607431d-adfb-47b8-ba79-e9f548a2e54c"
+        },
+        {
+            "note_id": 10025,
+            "patient_id": 197,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-02T04:32:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "72fc7a38-2386-419c-a455-47677307fddb"
+        },
+        {
+            "note_id": 10037,
+            "patient_id": 198,
+            "note_type": "Nursing",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-07T18:55:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "dadb6061-a5e1-4841-ba7b-d7f3d4c8f805"
+        },
+        {
+            "note_id": 10036,
+            "patient_id": 198,
+            "note_type": "Admission",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-06-25T18:14:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "de90749d-d2f2-4b6c-8052-1fd1cfe3f697"
+        },
+        {
+            "note_id": 10035,
+            "patient_id": 198,
+            "note_type": "Vitals",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-10T18:14:00+00:00",
+            "content": "BP 107/94 mmHg, HR 106 bpm, Temp 38.1\u00b0C, RR 13/min, SpO2 96%.",
+            "encounter_id": "3068e386-41bb-4bbc-9071-009b77891b04"
+        },
+        {
+            "note_id": 10032,
+            "patient_id": 198,
+            "note_type": "Nursing",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-18T00:57:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "43dc8eb8-db35-4478-bc47-b3a5ec22ec91"
+        },
+        {
+            "note_id": 10039,
+            "patient_id": 198,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-29T01:38:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "509d76d7-3906-4d68-af25-3431fa4aad07"
+        },
+        {
+            "note_id": 10033,
+            "patient_id": 198,
+            "note_type": "Discharge",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-30T23:39:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "fdc24374-fd18-4746-9eb8-8b38013144fe"
+        },
+        {
+            "note_id": 10030,
+            "patient_id": 198,
+            "note_type": "Lab",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-08-01T00:07:00+00:00",
+            "content": "CMP: Na 144 mmol/L, K 5.0 mmol/L, Cr 0.94 mg/dL. Within acceptable range.",
+            "encounter_id": "5562e9b0-f9d0-4bce-a0dd-6877ace5e9c6"
+        },
+        {
+            "note_id": 10034,
+            "patient_id": 198,
+            "note_type": "Nursing",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-12T02:15:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "fadb3a64-77a7-44fc-8700-0da7a3c411fd"
+        },
+        {
+            "note_id": 10031,
+            "patient_id": 198,
+            "note_type": "Lab",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-31T17:04:00+00:00",
+            "content": "CMP: Na 140 mmol/L, K 4.8 mmol/L, Cr 0.69 mg/dL. Within acceptable range.",
+            "encounter_id": "4c65083d-2fa6-42b0-95de-3b6e94b3ed42"
+        },
+        {
+            "note_id": 10038,
+            "patient_id": 198,
+            "note_type": "Nursing",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-09-08T22:24:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "53bedc6f-1cb2-4aa3-8b5a-8dfdeb264a6f"
+        },
+        {
+            "note_id": 10042,
+            "patient_id": 199,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-06-21T19:26:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "306f4132-daa3-4476-9e6f-fdc5f54cdad1"
+        },
+        {
+            "note_id": 10040,
+            "patient_id": 199,
+            "note_type": "Consult",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-23T02:19:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "50a71a1d-3107-497b-a42f-3eb9897e70ac"
+        },
+        {
+            "note_id": 10049,
+            "patient_id": 199,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-16T19:27:00+00:00",
+            "content": "Started Amlodipine per protocol. Next dose due at 03:27.",
+            "encounter_id": "3861e033-5fbe-4a2a-b4d1-45d9ca4a1890"
+        },
+        {
+            "note_id": 10045,
+            "patient_id": 199,
+            "note_type": "Consult",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-24T19:59:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "3cafdbc5-fbd9-47c6-9bb2-f7ba22ac46e5"
+        },
+        {
+            "note_id": 10044,
+            "patient_id": 199,
+            "note_type": "Medication",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-30T15:41:00+00:00",
+            "content": "Started Metformin per protocol. Next dose due at 23:41.",
+            "encounter_id": "646ee332-5921-4629-96d7-2f99cc4320ce"
+        },
+        {
+            "note_id": 10047,
+            "patient_id": 199,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-08T04:29:00+00:00",
+            "content": "Patient reports mild improvement in symptoms. Pain 6/10. Tolerating PO fluids.",
+            "encounter_id": "ace83d27-0dc8-4aad-ada3-e985b6923c40"
+        },
+        {
+            "note_id": 10046,
+            "patient_id": 199,
+            "note_type": "Discharge",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-29T17:36:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "c0f53477-1280-4fc5-9e33-c0207198d283"
+        },
+        {
+            "note_id": 10043,
+            "patient_id": 199,
+            "note_type": "Consult",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-06T14:13:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "68255600-d9e3-4705-9dc3-dc6321502de8"
+        },
+        {
+            "note_id": 10048,
+            "patient_id": 199,
+            "note_type": "Progress",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-06T21:55:00+00:00",
+            "content": "Patient reports mild improvement in symptoms. Pain 3/10. Tolerating PO fluids.",
+            "encounter_id": "7e759988-6995-4413-97f2-878f6365a95b"
+        },
+        {
+            "note_id": 10041,
+            "patient_id": 199,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-09-17T03:36:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "0c4a289e-6416-41a0-9468-7995f15cb4ab"
+        },
+        {
+            "note_id": 10050,
+            "patient_id": 200,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-06-03T04:51:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "6dd48737-3520-4ade-aa03-ee9dc8a4fbf0"
+        },
+        {
+            "note_id": 10059,
+            "patient_id": 200,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-07T16:47:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "2f9c83d6-b50c-4c97-9ad4-25055d86c89f"
+        },
+        {
+            "note_id": 10057,
+            "patient_id": 200,
+            "note_type": "Lab",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-08T20:17:00+00:00",
+            "content": "CMP: Na 137 mmol/L, K 4.4 mmol/L, Cr 1.33 mg/dL. Within acceptable range.",
+            "encounter_id": "8bf8dde9-e017-4f86-9e45-5f85e075876e"
+        },
+        {
+            "note_id": 10055,
+            "patient_id": 200,
+            "note_type": "Nursing",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-06-10T00:52:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "2d71b4c0-4dfc-40c7-9c80-8d1ab3677fdb"
+        },
+        {
+            "note_id": 10058,
+            "patient_id": 200,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-30T19:49:00+00:00",
+            "content": "Administered Paracetamol 250 mg at 19:54. No adverse reactions observed.",
+            "encounter_id": "cbfac66e-52d9-4447-8ca4-5e659c1d1100"
+        },
+        {
+            "note_id": 10051,
+            "patient_id": 200,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-09T01:18:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "f08a049e-7d3d-4a30-9dbf-b36c5ff4c2d5"
+        },
+        {
+            "note_id": 10054,
+            "patient_id": 200,
+            "note_type": "Vitals",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-21T14:16:00+00:00",
+            "content": "Stable vitals. No acute distress. SpO2 98% on room air.",
+            "encounter_id": "a53419e4-5375-4af3-b945-cb3d696f4fda"
+        },
+        {
+            "note_id": 10053,
+            "patient_id": 200,
+            "note_type": "Consult",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-07T22:58:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "f9da44f1-73a4-4594-9a58-ac09c78570a3"
+        },
+        {
+            "note_id": 10052,
+            "patient_id": 200,
+            "note_type": "Vitals",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-28T03:08:00+00:00",
+            "content": "BP 150/88 mmHg, HR 60 bpm, Temp 37.8\u00b0C, RR 21/min, SpO2 95%.",
+            "encounter_id": "3194bebd-bf74-4150-94b2-4a7526da69af"
+        },
+        {
+            "note_id": 10056,
+            "patient_id": 200,
+            "note_type": "Medication",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-08-29T22:26:00+00:00",
+            "content": "Administered Metformin 1000 mg at 22:31. No adverse reactions observed.",
+            "encounter_id": "c6ff2234-d54e-4f07-ba13-d4b379530d2f"
+        },
+        {
+            "note_id": 10060,
+            "patient_id": 201,
+            "note_type": "Discharge",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-08T21:54:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "2767b980-6c27-4382-a497-fb514610c78c"
+        },
+        {
+            "note_id": 10066,
+            "patient_id": 201,
+            "note_type": "Nursing",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-15T18:43:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "70af23a3-a4ba-4773-8c23-761961ee0c41"
+        },
+        {
+            "note_id": 10063,
+            "patient_id": 201,
+            "note_type": "Lab",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-10T19:06:00+00:00",
+            "content": "CMP: Na 134 mmol/L, K 4.4 mmol/L, Cr 1.19 mg/dL. Within acceptable range.",
+            "encounter_id": "7b492f03-0913-4c68-bc67-9d5696a944b0"
+        },
+        {
+            "note_id": 10065,
+            "patient_id": 201,
+            "note_type": "Vitals",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-11T01:20:00+00:00",
+            "content": "BP 148/99 mmHg, HR 61 bpm, Temp 38.0\u00b0C, RR 14/min, SpO2 100%.",
+            "encounter_id": "551d78dc-8e17-4998-a298-ccc7c64a0828"
+        },
+        {
+            "note_id": 10062,
+            "patient_id": 201,
+            "note_type": "Nursing",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-18T16:43:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "b878ee10-cd66-48e5-9be3-af1e7a5bdb5e"
+        },
+        {
+            "note_id": 10061,
+            "patient_id": 201,
+            "note_type": "Discharge",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-29T22:38:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "b8c6df6b-44ca-437b-aa48-ddea9c1de21f"
+        },
+        {
+            "note_id": 10067,
+            "patient_id": 201,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-09T01:14:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "d6b009ba-8258-4f85-b4af-18b81b887caf"
+        },
+        {
+            "note_id": 10064,
+            "patient_id": 201,
+            "note_type": "Medication",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-08-28T18:01:00+00:00",
+            "content": "Started Paracetamol per protocol. Next dose due at 02:01.",
+            "encounter_id": "1000c395-eeab-48ae-bf20-df890897e3de"
+        },
+        {
+            "note_id": 10069,
+            "patient_id": 201,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-09-08T19:22:00+00:00",
+            "content": "Administered Ibuprofen 1000 mcg at 19:27. No adverse reactions observed.",
+            "encounter_id": "06220e23-6ab8-4f13-b253-47bc449c10f1"
+        },
+        {
+            "note_id": 10068,
+            "patient_id": 201,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-09-16T01:58:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "0c0fba76-b999-4f3b-b01d-dc85e2788d3f"
+        },
+        {
+            "note_id": 10079,
+            "patient_id": 202,
+            "note_type": "Progress",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-06-02T04:05:00+00:00",
+            "content": "Patient reports mild improvement in symptoms. Pain 2/10. Tolerating PO fluids.",
+            "encounter_id": "3b420cba-4a06-49ef-b2be-2376fcac1066"
+        },
+        {
+            "note_id": 10072,
+            "patient_id": 202,
+            "note_type": "Nursing",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-06T17:45:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "5676c0a7-b9cd-4b5c-8489-82d3b5aa5b05"
+        },
+        {
+            "note_id": 10078,
+            "patient_id": 202,
+            "note_type": "Admission",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-01T20:05:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "038170a6-3073-41a6-9ae3-3f0645cddb8d"
+        },
+        {
+            "note_id": 10074,
+            "patient_id": 202,
+            "note_type": "Consult",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-17T14:23:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "f0455356-0b0a-4ceb-b8a7-c0ed2f916c6d"
+        },
+        {
+            "note_id": 10077,
+            "patient_id": 202,
+            "note_type": "Vitals",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-18T22:59:00+00:00",
+            "content": "BP 105/70 mmHg, HR 75 bpm, Temp 37.4\u00b0C, RR 18/min, SpO2 95%.",
+            "encounter_id": "994e1478-4ea1-452c-8b53-749027f8afb7"
+        },
+        {
+            "note_id": 10076,
+            "patient_id": 202,
+            "note_type": "Lab",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-28T17:34:00+00:00",
+            "content": "CMP: Na 138 mmol/L, K 3.3 mmol/L, Cr 1.03 mg/dL. Within acceptable range.",
+            "encounter_id": "ee1a6308-59d9-4371-80bf-842f1f5b5c15"
+        },
+        {
+            "note_id": 10073,
+            "patient_id": 202,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-18T03:09:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "f28a6887-5cac-4f27-9ec5-43aa25662e03"
+        },
+        {
+            "note_id": 10075,
+            "patient_id": 202,
+            "note_type": "Discharge",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-19T16:38:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "d00c604c-3087-4e81-9c6c-30961b0e0957"
+        },
+        {
+            "note_id": 10070,
+            "patient_id": 202,
+            "note_type": "Admission",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-21T23:20:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "a04d7a0a-4bfc-4e89-a7bf-e23a5537a056"
+        },
+        {
+            "note_id": 10071,
+            "patient_id": 202,
+            "note_type": "Discharge",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-09-18T15:39:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "a070301d-e060-4253-82b0-02ab48aa0e65"
+        },
+        {
+            "note_id": 10084,
+            "patient_id": 203,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-11T20:38:00+00:00",
+            "content": "Started Amlodipine per protocol. Next dose due at 04:38.",
+            "encounter_id": "60a280ad-9da3-4150-825a-2edbaba9ccbc"
+        },
+        {
+            "note_id": 10087,
+            "patient_id": 203,
+            "note_type": "Consult",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-06-16T18:49:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "26f8a632-ce89-4c38-b502-6eceeab63d3f"
+        },
+        {
+            "note_id": 10088,
+            "patient_id": 203,
+            "note_type": "Vitals",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-07-12T00:22:00+00:00",
+            "content": "Stable vitals. No acute distress. SpO2 95% on room air.",
+            "encounter_id": "70c608b3-09a9-4920-9cdd-c877817465b0"
+        },
+        {
+            "note_id": 10083,
+            "patient_id": 203,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-17T03:49:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "fff26d42-8637-4aa2-85c6-4c09bb20b30d"
+        },
+        {
+            "note_id": 10081,
+            "patient_id": 203,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-21T03:30:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "9793a2bd-ce5f-4504-8989-aa9faef6a76d"
+        },
+        {
+            "note_id": 10085,
+            "patient_id": 203,
+            "note_type": "Progress",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-26T18:40:00+00:00",
+            "content": "Cough persists, but afebrile. Continue current plan and monitor.",
+            "encounter_id": "c2097e33-8731-4534-ae91-b8dfd209e984"
+        },
+        {
+            "note_id": 10082,
+            "patient_id": 203,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-07-31T01:30:00+00:00",
+            "content": "Administered Amoxicillin 850 mcg at 01:35. No adverse reactions observed.",
+            "encounter_id": "4e66b50b-1498-444b-a2ff-df92a47d0dfb"
+        },
+        {
+            "note_id": 10089,
+            "patient_id": 203,
+            "note_type": "Medication",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-13T19:29:00+00:00",
+            "content": "Administered Metformin 250 mg at 19:34. No adverse reactions observed.",
+            "encounter_id": "dc7f32bf-189d-45af-b15d-95246c9fd1ee"
+        },
+        {
+            "note_id": 10080,
+            "patient_id": 203,
+            "note_type": "Lab",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-16T22:01:00+00:00",
+            "content": "CBC: WBC 4.5 x10^9/L, Hb 13.4 g/dL, Plt 409 x10^9/L. CMP pending.",
+            "encounter_id": "04ec528d-a3b2-4ba3-9c9a-a9cef89d14a7"
+        },
+        {
+            "note_id": 10086,
+            "patient_id": 203,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-08-17T16:43:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "767a4a35-f163-4504-9b32-0b474f5830ce"
+        },
+        {
+            "note_id": 10092,
+            "patient_id": 204,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-28T02:36:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "010f7aa9-2f76-4859-81aa-153b747e11fd"
+        },
+        {
+            "note_id": 10098,
+            "patient_id": 204,
+            "note_type": "Progress",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-07-11T02:57:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "65b4bfb7-edb1-4ddf-9a03-edda0eba68b7"
+        },
+        {
+            "note_id": 10099,
+            "patient_id": 204,
+            "note_type": "Discharge",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-11T20:09:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "dc6a2e79-b443-48af-b943-fbebaf718f3a"
+        },
+        {
+            "note_id": 10093,
+            "patient_id": 204,
+            "note_type": "Admission",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-14T23:09:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "eaea32da-1853-4e7a-8b66-2c0f3b2d1fb7"
+        },
+        {
+            "note_id": 10095,
+            "patient_id": 204,
+            "note_type": "Consult",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-16T14:03:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "8db05333-d878-4193-bc45-134a6c07bf7b"
+        },
+        {
+            "note_id": 10097,
+            "patient_id": 204,
+            "note_type": "Medication",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-29T16:38:00+00:00",
+            "content": "Started Amlodipine per protocol. Next dose due at 00:38.",
+            "encounter_id": "18061fb7-a6d9-402a-a5f7-42315f58a9b9"
+        },
+        {
+            "note_id": 10096,
+            "patient_id": 204,
+            "note_type": "Consult",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-04T21:48:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "a54d47b3-983c-48fc-98c2-927139ae7f17"
+        },
+        {
+            "note_id": 10091,
+            "patient_id": 204,
+            "note_type": "Consult",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-10T18:08:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "8f81acc9-b4d3-4406-a44f-cc3e1ba22750"
+        },
+        {
+            "note_id": 10090,
+            "patient_id": 204,
+            "note_type": "Medication",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-09-16T02:35:00+00:00",
+            "content": "Started Ibuprofen per protocol. Next dose due at 10:35.",
+            "encounter_id": "2f1d77e5-e730-4add-aaa0-2c72518c9d0a"
+        },
+        {
+            "note_id": 10094,
+            "patient_id": 204,
+            "note_type": "Lab",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-09-19T23:26:00+00:00",
+            "content": "CMP: Na 141 mmol/L, K 5.1 mmol/L, Cr 0.79 mg/dL. Within acceptable range.",
+            "encounter_id": "8e069816-4662-4ed3-8175-4ec0d1508e38"
+        },
+        {
+            "note_id": 10104,
+            "patient_id": 205,
+            "note_type": "Nursing",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-06-06T03:25:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "fcdccc10-9295-4812-a098-cde9c754e1ca"
+        },
+        {
+            "note_id": 10108,
+            "patient_id": 205,
+            "note_type": "Vitals",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-11T04:36:00+00:00",
+            "content": "BP 134/69 mmHg, HR 68 bpm, Temp 37.1\u00b0C, RR 18/min, SpO2 100%.",
+            "encounter_id": "e9917fd9-12d0-49ba-8b59-87f77a398aee"
+        },
+        {
+            "note_id": 10102,
+            "patient_id": 205,
+            "note_type": "Consult",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-28T17:52:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "4d065c69-b912-41e0-8000-b3eb6f2f246c"
+        },
+        {
+            "note_id": 10106,
+            "patient_id": 205,
+            "note_type": "Nursing",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-04T20:15:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "d5ec8fb4-5ac5-4a2e-a34c-c617e32126c2"
+        },
+        {
+            "note_id": 10101,
+            "patient_id": 205,
+            "note_type": "Consult",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-11T21:22:00+00:00",
+            "content": "Cardiology consulted for palpitations; recommends Holter monitoring.",
+            "encounter_id": "53b4f62e-cff3-4b1c-9dcb-c327ee362c89"
+        },
+        {
+            "note_id": 10105,
+            "patient_id": 205,
+            "note_type": "Medication",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-30T00:16:00+00:00",
+            "content": "Started Metformin per protocol. Next dose due at 08:16.",
+            "encounter_id": "e284b751-6bfa-464c-8a3a-c6d131257c5d"
+        },
+        {
+            "note_id": 10100,
+            "patient_id": 205,
+            "note_type": "Admission",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-07-30T04:34:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "a88376c1-bba9-4fc0-8a12-97ff59f61be7"
+        },
+        {
+            "note_id": 10103,
+            "patient_id": 205,
+            "note_type": "Discharge",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-11T04:10:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "c05afe73-5480-443d-9ff6-6923c5016f9b"
+        },
+        {
+            "note_id": 10109,
+            "patient_id": 205,
+            "note_type": "Nursing",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-12T14:35:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "3e96f5e9-fc1d-4065-bc80-8842d545c5ec"
+        },
+        {
+            "note_id": 10107,
+            "patient_id": 205,
+            "note_type": "Admission",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-22T04:18:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "9aba14e9-5a07-4e19-aa6d-d8e238b14582"
+        },
+        {
+            "note_id": 10119,
+            "patient_id": 206,
+            "note_type": "Nursing",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-06-22T16:46:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "a1e38e01-293a-415d-b5e3-2699e7af7cc2"
+        },
+        {
+            "note_id": 10110,
+            "patient_id": 206,
+            "note_type": "Medication",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-07T20:11:00+00:00",
+            "content": "Started Paracetamol per protocol. Next dose due at 04:11.",
+            "encounter_id": "ec7595c7-ad5b-4849-be34-ae581b79dae1"
+        },
+        {
+            "note_id": 10117,
+            "patient_id": 206,
+            "note_type": "Admission",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-19T21:34:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "58c81a4b-70f0-42f7-8049-e424843c5f5c"
+        },
+        {
+            "note_id": 10115,
+            "patient_id": 206,
+            "note_type": "Discharge",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-11T22:08:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "cec1149d-f7ff-4ea1-824b-2e1631b1fd43"
+        },
+        {
+            "note_id": 10118,
+            "patient_id": 206,
+            "note_type": "Discharge",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-08-14T23:46:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "a94499b9-b0e2-4c37-9bf0-e64b92dd453a"
+        },
+        {
+            "note_id": 10114,
+            "patient_id": 206,
+            "note_type": "Admission",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-25T20:50:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "01a70981-d5b1-4c85-9eba-cd4d013a8a32"
+        },
+        {
+            "note_id": 10116,
+            "patient_id": 206,
+            "note_type": "Nursing",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-08-25T22:13:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "72e5bd6c-e2bf-4312-9ae7-a657fe274b33"
+        },
+        {
+            "note_id": 10112,
+            "patient_id": 206,
+            "note_type": "Progress",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-09-08T04:56:00+00:00",
+            "content": "Patient reports mild improvement in symptoms. Pain 1/10. Tolerating PO fluids.",
+            "encounter_id": "82026379-9792-4e3d-8204-3ce6f44aecb5"
+        },
+        {
+            "note_id": 10113,
+            "patient_id": 206,
+            "note_type": "Admission",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-14T04:46:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "d69da8f7-2516-4f8a-aae8-2afc2fdc549b"
+        },
+        {
+            "note_id": 10111,
+            "patient_id": 206,
+            "note_type": "Progress",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-09-15T14:48:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "0aa137f1-fb9f-461f-802e-1bb893a20c38"
+        },
+        {
+            "note_id": 10127,
+            "patient_id": 207,
+            "note_type": "Vitals",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-04T15:22:00+00:00",
+            "content": "Stable vitals. No acute distress. SpO2 96% on room air.",
+            "encounter_id": "9f446958-a986-43eb-8f00-52b86053862e"
+        },
+        {
+            "note_id": 10122,
+            "patient_id": 207,
+            "note_type": "Discharge",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-05T15:25:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "3ed28820-a7ea-4c38-b191-7464866bd555"
+        },
+        {
+            "note_id": 10121,
+            "patient_id": 207,
+            "note_type": "Lab",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-06-13T22:09:00+00:00",
+            "content": "CMP: Na 144 mmol/L, K 5.2 mmol/L, Cr 1.18 mg/dL. Within acceptable range.",
+            "encounter_id": "381cb074-7d47-46c2-8c65-e549b4db41c7"
+        },
+        {
+            "note_id": 10128,
+            "patient_id": 207,
+            "note_type": "Nursing",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-07-06T20:19:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "54a6ddca-e20a-456a-864c-234bad8e816d"
+        },
+        {
+            "note_id": 10126,
+            "patient_id": 207,
+            "note_type": "Medication",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-07-20T01:50:00+00:00",
+            "content": "Started Amoxicillin per protocol. Next dose due at 09:50.",
+            "encounter_id": "ee4041ae-40fd-49fa-92b4-e36cf72d9690"
+        },
+        {
+            "note_id": 10129,
+            "patient_id": 207,
+            "note_type": "Medication",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-07-27T19:27:00+00:00",
+            "content": "Started Amoxicillin per protocol. Next dose due at 03:27.",
+            "encounter_id": "baf4f5b7-8154-412e-ae1b-20dd75774a5b"
+        },
+        {
+            "note_id": 10123,
+            "patient_id": 207,
+            "note_type": "Progress",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-12T21:17:00+00:00",
+            "content": "Cough persists, but afebrile. Continue current plan and monitor.",
+            "encounter_id": "a0132e32-8ea9-41d8-853f-776a1735477a"
+        },
+        {
+            "note_id": 10124,
+            "patient_id": 207,
+            "note_type": "Discharge",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-13T03:54:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "5e4d8192-b6f9-44e0-8639-d22144cbc25b"
+        },
+        {
+            "note_id": 10125,
+            "patient_id": 207,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-08-16T20:49:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "6402f7af-b484-4f88-b270-28dc5f8ec531"
+        },
+        {
+            "note_id": 10120,
+            "patient_id": 207,
+            "note_type": "Nursing",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-22T00:59:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "69e7e91a-f8d4-45a2-abc1-6942311bbf21"
+        },
+        {
+            "note_id": 10138,
+            "patient_id": 208,
+            "note_type": "Lab",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-02T21:08:00+00:00",
+            "content": "CMP: Na 138 mmol/L, K 3.6 mmol/L, Cr 0.86 mg/dL. Within acceptable range.",
+            "encounter_id": "370835cc-606f-4c86-8b43-e12d9c94ca63"
+        },
+        {
+            "note_id": 10135,
+            "patient_id": 208,
+            "note_type": "Lab",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-06-05T01:39:00+00:00",
+            "content": "CMP: Na 138 mmol/L, K 4.5 mmol/L, Cr 1.04 mg/dL. Within acceptable range.",
+            "encounter_id": "836f1971-dfac-4dcb-b5c3-c6d4072926ef"
+        },
+        {
+            "note_id": 10133,
+            "patient_id": 208,
+            "note_type": "Vitals",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-14T18:26:00+00:00",
+            "content": "BP 119/81 mmHg, HR 87 bpm, Temp 38.3\u00b0C, RR 18/min, SpO2 100%.",
+            "encounter_id": "177d0dc9-7e11-4927-900e-5c0f96bb13cc"
+        },
+        {
+            "note_id": 10134,
+            "patient_id": 208,
+            "note_type": "Admission",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-06-15T14:54:00+00:00",
+            "content": "Admitted to ward for observation due to dehydration and dizziness.",
+            "encounter_id": "fee8df83-3bcd-4dc5-adc4-9739acd42945"
+        },
+        {
+            "note_id": 10137,
+            "patient_id": 208,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-06-19T22:24:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "0878dd21-9bfa-4a88-8336-c40544e369b4"
+        },
+        {
+            "note_id": 10131,
+            "patient_id": 208,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-07-28T23:30:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "ed6a56c0-bc99-44a7-ac82-7529b149dcd1"
+        },
+        {
+            "note_id": 10130,
+            "patient_id": 208,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-15T22:11:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "4275ec6d-9d81-4e84-93dd-d578e11e76ff"
+        },
+        {
+            "note_id": 10136,
+            "patient_id": 208,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-08-21T19:38:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "164b75d1-fe3a-4b7d-84ec-376b7c388ec7"
+        },
+        {
+            "note_id": 10132,
+            "patient_id": 208,
+            "note_type": "Discharge",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-09-05T19:50:00+00:00",
+            "content": "Discharged home in stable condition. Provided discharge instructions and follow-up in 1 week.",
+            "encounter_id": "280ebb7f-5e7f-4ee7-8919-50fe7917f127"
+        },
+        {
+            "note_id": 10139,
+            "patient_id": 208,
+            "note_type": "Nursing",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-08T21:36:00+00:00",
+            "content": "Fall risk precautions in place. Bed in low position, call bell within reach.",
+            "encounter_id": "09ac476e-bba1-48aa-8562-a03129651691"
+        },
+        {
+            "note_id": 10149,
+            "patient_id": 209,
+            "note_type": "Admission",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-06-02T19:59:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "52567afb-af57-4cbc-a6e8-30f1c240ad17"
+        },
+        {
+            "note_id": 10143,
+            "patient_id": 209,
+            "note_type": "Admission",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-13T01:29:00+00:00",
+            "content": "Admitted post-ER visit for monitoring and IV fluids.",
+            "encounter_id": "5b1693dd-295e-4ad2-8d13-b7f3b4866dcb"
+        },
+        {
+            "note_id": 10141,
+            "patient_id": 209,
+            "note_type": "Consult",
+            "author": "Dr. P. Ioannou, MD",
+            "created_at": "2025-06-22T19:45:00+00:00",
+            "content": "Physiotherapy consult: begin mobility exercises BID.",
+            "encounter_id": "dcb423a9-0bd0-4af1-aa49-a57a6044ae53"
+        },
+        {
+            "note_id": 10146,
+            "patient_id": 209,
+            "note_type": "Vitals",
+            "author": "Nurse A. Georgiou, RN",
+            "created_at": "2025-06-30T20:05:00+00:00",
+            "content": "Stable vitals. No acute distress. SpO2 95% on room air.",
+            "encounter_id": "fa499d3e-eec7-4a6c-a1d2-502f2526dbe9"
+        },
+        {
+            "note_id": 10140,
+            "patient_id": 209,
+            "note_type": "Vitals",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-04T19:55:00+00:00",
+            "content": "BP 113/97 mmHg, HR 102 bpm, Temp 37.1\u00b0C, RR 21/min, SpO2 99%.",
+            "encounter_id": "1abaf0c2-a5a8-4b89-86da-51ceb193a527"
+        },
+        {
+            "note_id": 10145,
+            "patient_id": 209,
+            "note_type": "Lab",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-22T00:19:00+00:00",
+            "content": "CBC: WBC 4.1 x10^9/L, Hb 12.4 g/dL, Plt 211 x10^9/L. CMP pending.",
+            "encounter_id": "e629f07f-4021-42fe-b051-2ad936f48b19"
+        },
+        {
+            "note_id": 10144,
+            "patient_id": 209,
+            "note_type": "Medication",
+            "author": "Dr. C. Stylianou, MD",
+            "created_at": "2025-07-29T14:07:00+00:00",
+            "content": "Started Ibuprofen per protocol. Next dose due at 22:07.",
+            "encounter_id": "8630d545-0639-4316-b59f-e8ee125909e8"
+        },
+        {
+            "note_id": 10148,
+            "patient_id": 209,
+            "note_type": "Progress",
+            "author": "PA T. Demetriou, PA-C",
+            "created_at": "2025-08-17T18:49:00+00:00",
+            "content": "No overnight events. Ambulating with assistance. Education reinforced about medication adherence.",
+            "encounter_id": "2f0de5e9-122c-422f-9666-d732a622b304"
+        },
+        {
+            "note_id": 10147,
+            "patient_id": 209,
+            "note_type": "Discharge",
+            "author": "Dr. M. Christou, MD",
+            "created_at": "2025-09-04T16:58:00+00:00",
+            "content": "Discharge planned for tomorrow pending lab results.",
+            "encounter_id": "1371a53b-ef1c-473b-8c76-b51909acc506"
+        },
+        {
+            "note_id": 10142,
+            "patient_id": 209,
+            "note_type": "Nursing",
+            "author": "Nurse E. Kyriakou, RN",
+            "created_at": "2025-09-17T00:25:00+00:00",
+            "content": "Patient educated on incentive spirometer; demonstrates correct technique.",
+            "encounter_id": "9c68033a-5612-4b5f-b8b2-9b46c0fb5498"
+        }
+    ]
+}

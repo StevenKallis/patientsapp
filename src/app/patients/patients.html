@@ -1,1 +1,45 @@
-<p>patients works!</p>
+<nz-card nzTitle="Patients">
+  <div class="table-container">
+    <nz-table [nzBordered]="true" [nzData]="pagedPatients" [nzShowPagination]="false">
+      <thead nzTHead>
+        <tr>
+          <th nzColumnKey="name">
+            <div class="flex-column">
+              <span>Name</span>
+              <input nz-input placeholder="Filter Name" [(ngModel)]="nameFilter" />
+            </div>
+          </th>
+          <th nzColumnKey="dob">
+            <div class="flex-column">
+              <span>Date of Birth</span>
+              <input nz-input placeholder="Filter DOB" [(ngModel)]="dobFilter" />
+            </div>
+          </th>
+          <th nzColumnKey="mrn">
+            <div class="flex-column">
+              <span>Medical Record Number</span>
+              <input nz-input placeholder="Filter MRN" [(ngModel)]="mrnFilter" />
+            </div>
+          </th>
+        </tr>
+      </thead>
+      <tbody nzTBody>
+        <tr *ngFor="let patient of pagedPatients" nzTBodyTr (click)="onPatientClick(patient)">
+          <td nzTBodyTd>{{ patient.first_name }}</td>
+          <td nzTBodyTd>{{ patient.date_of_birth }}</td>
+          <td nzTBodyTd>{{ patient.medical_record_number }}</td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+
+  <nz-pagination
+    [nzPageIndex]="pageIndex"
+    [nzTotal]="filteredPatients.length"
+    [nzPageSize]="pageSize"
+    (nzPageIndexChange)="onPageChange($event)"
+    [nzShowSizeChanger]="false"
+    class="pagination"
+  >
+  </nz-pagination>
+</nz-card>

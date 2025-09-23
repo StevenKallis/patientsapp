@@ -1,0 +1,76 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+/* Card style */
+nz-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #d8f0d8;
+}
+
+.ant-card-head {
+  background: #f0faf0;
+  border-bottom: 1px solid #d8f0d8;
+  font-weight: bold;
+  color: #2f6d2f;
+}
+
+/* Filters inside headers */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+tbody tr:hover {
+  background-color: #e6f7e6;
+  cursor: pointer;
+}
+
+input[nz-input] {
+  margin-top: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #cceccc;
+  padding: 4px 8px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+
+  &:focus,
+  &:hover {
+    border-color: #66bb66;
+    box-shadow: 0 0 4px rgba(102, 187, 102, 0.3);
+  }
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* Pagination custom green style */
+.ant-pagination-item-active {
+  border-color: #66bb66 !important;
+}
+
+.ant-pagination-item-active a {
+  color: #2f6d2f !important;
+}
+
+.ant-pagination-item:hover {
+  border-color: #66bb66;
+}
+
+.ant-pagination-item:hover a {
+  color: #2f6d2f;
+}
+
+@media (max-width: 600px) {
+  nz-table {
+    font-size: 14px;
+  }
+}

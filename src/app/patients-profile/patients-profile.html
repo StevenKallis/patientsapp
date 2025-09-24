@@ -17,21 +17,20 @@
     </div>
   </div>
 
-  <div class="patients-list">
+  @for(note of displayedNotes; track note.note_id){
+  <div class="notes-list">
     <div class="patient-card">
-      <div class="patient-field"><strong>Name:</strong> {{ patientProfile?.first_name }}</div>
-      <div class="patient-field"><strong>Last Name:</strong> {{ patientProfile?.last_name }}</div>
-
-      <div class="patient-field"><strong>DOB:</strong> {{ patientProfile?.date_of_birth }}</div>
-      <div class="patient-field">
-        <strong>MRN:</strong> {{ patientProfile?.medical_record_number }}
-      </div>
-      <div class="patient-field">
-        <strong>Height:</strong> {{ patientProfile?.height ?? 'N/A' }}
-      </div>
-      <div class="patient-field"><strong>Phone:</strong> {{ patientProfile?.phone ?? 'N/A' }}</div>
-      <div class="patient-field"><strong>Email:</strong> {{ patientProfile?.email }}</div>
-      <div class="patient-field"><strong>Gender:</strong> {{ patientProfile?.gender }}</div>
+      <div class="patient-field"><strong>Note Type:</strong> {{ note?.note_type ?? 'N/A' }}</div>
+      <div class="patient-field"><strong>Author:</strong> {{ note?.author ?? 'N/A' }}</div>
+      <div class="patient-field"><strong>Created at:</strong> {{ note?.created_at ?? 'N/A' }}</div>
+      <div class="patient-field"><strong>Description:</strong> {{ note?.content ?? 'N/A' }}</div>
     </div>
   </div>
+  } @if(hasMore()){
+  <button nz-button class="green-button" (click)="showMore()">Show More</button>
+  }@else{
+  <div>
+    <em>No more notes to display.</em>
+  </div>
+  }
 </nz-card>

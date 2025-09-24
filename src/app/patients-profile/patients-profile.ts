@@ -20,9 +20,11 @@ export class PatientsProfile implements OnInit {
   private readonly destroyRef = inject(DestroyRef);
   private readonly route = inject(ActivatedRoute);
   private readonly id = this.route.snapshot.paramMap.get('id');
+  private readonly notesToShow = 5;
 
   patientProfile!: Patient;
   patientNotes: PatientNote[] = [];
+  displayedNotes: PatientNote[] = [];
 
   ngOnInit(): void {
     this.patientService
@@ -41,7 +43,19 @@ export class PatientsProfile implements OnInit {
         if (data) {
           console.log(data);
           this.patientNotes = data;
+          this.displayedNotes = this.patientNotes.slice(0, this.notesToShow);
         }
       });
+  }
+  showMore() {
+    const nextNotes = this.patientNotes.slice(
+      this.displayedNotes.length,
+      this.displayedNotes.length + this.notesToShow
+    );
+    this.displayedNotes = [...this.displayedNotes, ...nextNotes];
+  }
+
+  hasMore(): boolean {
+    return this.displayedNotes.length < this.patientNotes.length;
   }
 }

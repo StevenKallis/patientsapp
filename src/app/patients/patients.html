@@ -7,17 +7,15 @@
   </div>
 
   <!-- Patients list -->
+  @for(patient of pagedPatients; track patient.medical_record_number){
   <div class="patients-list">
-    <div
-      class="patient-card"
-      *ngFor="let patient of pagedPatients"
-      (click)="onPatientClick(patient)"
-    >
+    <div class="patient-card" (click)="onPatientClick(patient)">
       <div class="patient-field"><strong>Name:</strong> {{ patient.first_name }}</div>
       <div class="patient-field"><strong>DOB:</strong> {{ patient.date_of_birth }}</div>
       <div class="patient-field"><strong>MRN:</strong> {{ patient.medical_record_number }}</div>
     </div>
   </div>
+  }
 
   <!-- Pagination -->
   <nz-pagination

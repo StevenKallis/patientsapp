@@ -10,6 +10,7 @@ import { NzPaginationModule } from 'ng-zorro-antd/pagination';
 import { PatientService } from '../services/patient-service/patient-service';
 import { Patient } from '../shared/patient';
 import { Router } from '@angular/router';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
   selector: 'app-patients',
@@ -39,9 +40,12 @@ export class Patients implements OnInit {
   pageSize = 3;
 
   ngOnInit() {
-    this.patientService.getPatients().subscribe((data: Patient[]) => {
-      this.patients = data;
-    });
+    this.patientService
+      .getPatients()
+      .pipe(takeUntilDestroyed(this.destroyRef))
+      .subscribe((data: Patient[]) => {
+        this.patients = data;
+      });
   }
   get filteredPatients(): Patient[] {
     return this.patients.filter(

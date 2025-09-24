@@ -1,76 +1,89 @@
-.table-container {
-  display: flex;
-  flex-direction: column;
-  overflow-x: auto;
-}
-
-/* Card style */
-nz-card {
+.patients-card {
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  border: 1px solid #d8f0d8;
+  padding: 1rem;
 }
 
-.ant-card-head {
-  background: #f0faf0;
-  border-bottom: 1px solid #d8f0d8;
-  font-weight: bold;
-  color: #2f6d2f;
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  input {
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    padding: 0.5rem;
+    transition: 0.3s;
+
+    &:focus {
+      border-color: #2e7d32;
+      box-shadow: 0 0 6px rgba(76, 175, 80, 0.6);
+      background-color: #f1f8f1;
+    }
+
+    &:hover {
+      border-color: #388e3c;
+      background-color: #e8f5e9;
+    }
+  }
 }
 
-/* Filters inside headers */
-.flex-column {
+.patients-list {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
-tbody tr:hover {
-  background-color: #e6f7e6;
+.patient-card {
+  padding: 1rem;
+  border: 1px solid #81c784;
+  border-radius: 12px;
   cursor: pointer;
-}
+  transition: all 0.3s ease;
+  color: #1b5e20;
 
-input[nz-input] {
-  margin-top: 4px;
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 6px;
-  border: 1px solid #cceccc;
-  padding: 4px 8px;
-  transition: border-color 0.2s, box-shadow 0.2s;
-
-  &:focus,
   &:hover {
-    border-color: #66bb66;
-    box-shadow: 0 0 4px rgba(102, 187, 102, 0.3);
+    background: linear-gradient(145deg, #c8e6c9, #a5d6a7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
   }
 }
 
 .pagination {
-  margin-top: 16px;
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
+  margin-top: 1rem;
+  text-align: center;
 
-/* Pagination custom green style */
-.ant-pagination-item-active {
-  border-color: #66bb66 !important;
-}
+  .ant-pagination-item {
+    border-radius: 6px;
+    transition: all 0.3s;
 
-.ant-pagination-item-active a {
-  color: #2f6d2f !important;
-}
+    &:hover {
+      border-color: #66bb6a !important;
+      background-color: #e8f5e9 !important; // green tint on hover
 
-.ant-pagination-item:hover {
-  border-color: #66bb66;
-}
+      a {
+        color: #2e7d32 !important;
+      }
+    }
+  }
 
-.ant-pagination-item:hover a {
-  color: #2f6d2f;
-}
+  .ant-pagination-item-active {
+    background-color: #4caf50 !important;
+    border-color: #4caf50 !important;
 
-@media (max-width: 600px) {
-  nz-table {
-    font-size: 14px;
+    a {
+      color: #fff !important;
+    }
+
+    &:hover {
+      background-color: #388e3c !important; // darker active hover
+      border-color: #388e3c !important;
+    }
+  }
+
+  .ant-pagination-prev:hover .ant-pagination-item-link,
+  .ant-pagination-next:hover .ant-pagination-item-link {
+    border-color: #66bb6a !important;
+    color: #2e7d32 !important;
+    background-color: #e8f5e9 !important;
   }
 }

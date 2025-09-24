@@ -1,38 +1,25 @@
-<nz-card nzTitle="Patients">
-  <div class="table-container">
-    <nz-table [nzBordered]="true" [nzData]="pagedPatients" [nzShowPagination]="false">
-      <thead nzTHead>
-        <tr>
-          <th nzColumnKey="name">
-            <div class="flex-column">
-              <span>Name</span>
-              <input nz-input placeholder="Filter Name" [(ngModel)]="nameFilter" />
-            </div>
-          </th>
-          <th nzColumnKey="dob">
-            <div class="flex-column">
-              <span>Date of Birth</span>
-              <input nz-input placeholder="Filter DOB" [(ngModel)]="dobFilter" />
-            </div>
-          </th>
-          <th nzColumnKey="mrn">
-            <div class="flex-column">
-              <span>Medical Record Number</span>
-              <input nz-input placeholder="Filter MRN" [(ngModel)]="mrnFilter" />
-            </div>
-          </th>
-        </tr>
-      </thead>
-      <tbody nzTBody>
-        <tr *ngFor="let patient of pagedPatients" nzTBodyTr (click)="onPatientClick(patient)">
-          <td nzTBodyTd>{{ patient.first_name }}</td>
-          <td nzTBodyTd>{{ patient.date_of_birth }}</td>
-          <td nzTBodyTd>{{ patient.medical_record_number }}</td>
-        </tr>
-      </tbody>
-    </nz-table>
+<nz-card nzTitle="Patients" class="patients-card">
+  <!-- Filters -->
+  <div class="filters">
+    <input nz-input placeholder="Filter Name" [(ngModel)]="nameFilter" />
+    <input nz-input placeholder="Filter DOB" [(ngModel)]="dobFilter" />
+    <input nz-input placeholder="Filter MRN" [(ngModel)]="mrnFilter" />
   </div>
 
+  <!-- Patients list -->
+  <div class="patients-list">
+    <div
+      class="patient-card"
+      *ngFor="let patient of pagedPatients"
+      (click)="onPatientClick(patient)"
+    >
+      <div class="patient-field"><strong>Name:</strong> {{ patient.first_name }}</div>
+      <div class="patient-field"><strong>DOB:</strong> {{ patient.date_of_birth }}</div>
+      <div class="patient-field"><strong>MRN:</strong> {{ patient.medical_record_number }}</div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
   <nz-pagination
     [nzPageIndex]="pageIndex"
     [nzTotal]="filteredPatients.length"

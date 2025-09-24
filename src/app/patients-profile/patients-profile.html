@@ -1,1 +1,37 @@
-<p>patients-profile works!</p>
+<nz-card [nzTitle]="patientProfile?.first_name + '\'s Profile'" class="patients-card">
+  <div class="patients-list">
+    <div class="patient-card">
+      <div class="patient-field"><strong>Name:</strong> {{ patientProfile?.first_name }}</div>
+      <div class="patient-field"><strong>Last Name:</strong> {{ patientProfile?.last_name }}</div>
+
+      <div class="patient-field"><strong>DOB:</strong> {{ patientProfile?.date_of_birth }}</div>
+      <div class="patient-field">
+        <strong>MRN:</strong> {{ patientProfile?.medical_record_number }}
+      </div>
+      <div class="patient-field">
+        <strong>Height:</strong> {{ patientProfile?.height ?? 'N/A' }}
+      </div>
+      <div class="patient-field"><strong>Phone:</strong> {{ patientProfile?.phone ?? 'N/A' }}</div>
+      <div class="patient-field"><strong>Email:</strong> {{ patientProfile?.email }}</div>
+      <div class="patient-field"><strong>Gender:</strong> {{ patientProfile?.gender }}</div>
+    </div>
+  </div>
+
+  <div class="patients-list">
+    <div class="patient-card">
+      <div class="patient-field"><strong>Name:</strong> {{ patientProfile?.first_name }}</div>
+      <div class="patient-field"><strong>Last Name:</strong> {{ patientProfile?.last_name }}</div>
+
+      <div class="patient-field"><strong>DOB:</strong> {{ patientProfile?.date_of_birth }}</div>
+      <div class="patient-field">
+        <strong>MRN:</strong> {{ patientProfile?.medical_record_number }}
+      </div>
+      <div class="patient-field">
+        <strong>Height:</strong> {{ patientProfile?.height ?? 'N/A' }}
+      </div>
+      <div class="patient-field"><strong>Phone:</strong> {{ patientProfile?.phone ?? 'N/A' }}</div>
+      <div class="patient-field"><strong>Email:</strong> {{ patientProfile?.email }}</div>
+      <div class="patient-field"><strong>Gender:</strong> {{ patientProfile?.gender }}</div>
+    </div>
+  </div>
+</nz-card>

@@ -17,7 +17,12 @@ export const routes: Routes = [
     ],
   },
   {
+    path: '',
+    redirectTo: 'patients',
+    pathMatch: 'full',
+  },
+  {
     path: '**',
-    component: Patients,
+    redirectTo: 'patients',
   },
 ];

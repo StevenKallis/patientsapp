@@ -1,5 +1,5 @@
-<nz-card [nzTitle]="patientProfile?.first_name + '\'s Profile'" class="patients-card">
-  <div class="patients-list">
+<nz-card [nzTitle]="patientProfile?.first_name + '\'s Profile'" class="patients-card-container">
+  <div class="patients-profile">
     <div class="patient-card">
       <div class="patient-field"><strong>Name:</strong> {{ patientProfile?.first_name }}</div>
       <div class="patient-field"><strong>Last Name:</strong> {{ patientProfile?.last_name }}</div>
@@ -27,7 +27,7 @@
     </div>
   </div>
   } @if(hasMore()){
-  <button nz-button class="green-button" (click)="showMore()">Show More</button>
+  <button nz-button class="load-more-button" (click)="showMore()">Show More</button>
   }@else{
   <div>
     <em>No more notes to display.</em>

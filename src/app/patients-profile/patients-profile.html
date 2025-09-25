@@ -1,4 +1,15 @@
-<nz-card [nzTitle]="patientProfile?.first_name + '\'s Profile'" class="patients-card-container">
+<nz-card
+  [nzTitle]="patientProfile?.first_name + '\'s Profile'"
+  [nzExtra]="backTpl"
+  [nzLoading]="isLoading"
+  class="patients-card-container"
+>
+  <ng-template #backTpl>
+    <button nz-button nzType="default" class="back-button" (click)="goBack()">
+      <nz-icon nzType="arrow-left" nzTheme="outline" />
+    </button>
+  </ng-template>
+
   <div class="patients-profile">
     <div class="patient-card">
       <div class="patient-field"><strong>Name:</strong> {{ patientProfile?.first_name }}</div>

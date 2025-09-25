@@ -38,6 +38,7 @@ export class Patients implements OnInit {
   mrnFilter = '';
   pageIndex = 1;
   pageSize = 3;
+  isLoading = true;
 
   ngOnInit() {
     this.patientService
@@ -45,6 +46,7 @@ export class Patients implements OnInit {
       .pipe(takeUntilDestroyed(this.destroyRef))
       .subscribe((data: Patient[]) => {
         this.patients = data;
+        this.isLoading = false;
       });
   }
   get filteredPatients(): Patient[] {

@@ -1,5 +1,28 @@
 .patients-profile {
-  width: 40%;
+  width: 50%;
+}
+
+::ng-deep .ant-card-extra {
+  position: absolute;
+
+  left: 5px;
+  top: 25px;
+}
+
+.back-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    background-color: #388e3c;
+  }
 }
 
 ::ng-deep .ant-card-body {
@@ -23,7 +46,6 @@
   border: none;
   transition: 0.3s;
   border-radius: 10px;
-  width: 10%;
   height: 30%;
   transition: all 0.3s ease;
 

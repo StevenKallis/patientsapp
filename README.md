@@ -14,7 +14,7 @@ It uses [NG-Zorro](https://ng.ant.design/) for UI components and connects to a b
 ### Installation & Run
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/StevenKallis/patientsapp
 cd your-repo-name
 
 # 2. Install dependencies

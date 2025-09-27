@@ -1,4 +1,4 @@
-import { Component, DestroyRef, inject, input, OnInit } from '@angular/core';
+import { Component, DestroyRef, inject, OnInit } from '@angular/core';
 import { PatientService } from '../services/patient-service/patient-service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Patient } from '../shared/patient';
@@ -9,6 +9,7 @@ import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { PatientNote } from '../shared/patient-note';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-patients-profile',
@@ -33,25 +34,25 @@ export class PatientsProfile implements OnInit {
   ngOnInit(): void {
     this.patientService
       .getPatientById(this.id!)
-      .pipe(takeUntilDestroyed(this.destroyRef))
-      .subscribe((data: Patient) => {
-        if (data) {
-          this.patientProfile = data;
-          this.isLoading = false;
+      .pipe(
+        takeUntilDestroyed(this.destroyRef),
+        switchMap((patient: Patient) => {
+          if (patient) {
+            this.patientProfile = patient;
+            return this.patientService.getNotesByPatientId(this.id!);
+          }
+          return [];
+        })
+      )
+      .subscribe((notes) => {
+        if (notes) {
+          this.patientNotes = notes;
+          this.displayedNotes = notes.slice(0, this.notesToShow);
         }
-      });
-
-    this.patientService
-      .getNotesByPatientId(this.id!)
-      .pipe(takeUntilDestroyed(this.destroyRef))
-      .subscribe((data) => {
-        if (data) {
-          this.patientNotes = data;
-          this.displayedNotes = this.patientNotes.slice(0, this.notesToShow);
-          this.isLoading = false;
-        }
+        this.isLoading = false;
       });
   }
+
   showMore() {
     const nextNotes = this.patientNotes.slice(
       this.displayedNotes.length,

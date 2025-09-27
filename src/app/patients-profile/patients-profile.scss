@@ -2,6 +2,10 @@
   width: 50%;
 }
 
+.patient-card {
+  cursor: default;
+}
+
 ::ng-deep .ant-card-extra {
   position: absolute;
 
@@ -47,6 +51,8 @@
   transition: 0.3s;
   border-radius: 10px;
   height: 30%;
+  width: 20%;
+  min-width: auto;
   transition: all 0.3s ease;
 
   &:hover {

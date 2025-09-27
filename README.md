@@ -1,8 +1,7 @@
 # Patient Profile App
 
 This is an Angular application that displays patient profiles and notes.  
-It uses [NG-Zorro](https://ng.ant.design/) for UI components and connects to a backend service for data.
-
+It uses [NG-Zorro](https://ng.ant.design/) for UI components and uses mock data with json server
 ---
 
 ## 🚀 Getting Started

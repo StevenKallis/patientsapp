@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { Patients } from './patients/patients';
-import { PatientsProfile } from './patients-profile/patients-profile';
+import { Patients } from './patients/patients.component';
+import { PatientsProfile } from './patients-profile/patients-profile.component';
 
 export const routes: Routes = [
   {

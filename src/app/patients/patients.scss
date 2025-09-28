@@ -1,41 +1,54 @@
 .filters {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  background: rgba(245, 255, 250, 0.7);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(165, 214, 167, 0.08);
+  animation: fade-in 0.8s ease;
 
   input {
-    border: 1px solid #4caf50;
+    border: 1px solid #a5d6a7;
     border-radius: 8px;
-    padding: 0.5rem;
-    transition: 0.3s;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    background: #f9fff7;
+    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s, transform 0.2s;
 
     &:focus {
-      border-color: #2e7d32;
-      box-shadow: 0 0 6px rgba(76, 175, 80, 0.6);
+      border-color: #388e3c;
+      box-shadow: 0 0 8px rgba(76, 175, 80, 0.15);
       background-color: #f1f8f1;
+      transform: scale(1.03);
+      outline: none;
     }
 
     &:hover {
-      border-color: #388e3c;
+      border-color: #66bb6a;
       background-color: #e8f5e9;
+      transform: scale(1.02);
     }
   }
 }
 
 .pagination {
-  margin-top: 1rem;
+  margin-top: 2rem;
   text-align: center;
+  animation: fade-in 1s ease;
 
   .ant-pagination-item {
-    border-radius: 6px;
+    border-radius: 8px;
     transition: all 0.3s;
+    font-size: 1.1rem;
+    margin: 0 2px;
 
     &:hover {
-      border-color: #66bb6a !important;
-      background-color: #e8f5e9 !important; // green tint on hover
+      border-color: #a5d6a7 !important;
+      background-color: #e8f5e9 !important;
 
       a {
-        color: #2e7d32 !important;
+        color: #a5d6a7 !important;
       }
     }
   }
@@ -46,18 +59,55 @@
 
     a {
       color: #fff !important;
+      font-weight: bold;
     }
 
     &:hover {
-      background-color: #388e3c !important; // darker active hover
+      background-color: #388e3c !important;
       border-color: #388e3c !important;
     }
   }
 
   .ant-pagination-prev:hover .ant-pagination-item-link,
   .ant-pagination-next:hover .ant-pagination-item-link {
-    border-color: #66bb6a !important;
-    color: #2e7d32 !important;
+    border-color: #a5d6a7 !important;
+    color: #388e3c !important;
     background-color: #e8f5e9 !important;
   }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.no-patients-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 255, 250, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(165, 214, 167, 0.12);
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  animation: fade-in 0.8s ease;
+}
+
+.no-patients-icon {
+  font-size: 3rem !important;
+  color: #a5d6a7 !important;
+  margin-bottom: 0.7rem;
+  filter: drop-shadow(0 2px 8px #a5d6a7);
+}
+
+.no-patients-text {
+  font-size: 1.15rem;
+  color: #388e3c;
+  text-align: center;
 }

@@ -2,13 +2,13 @@ import { Component, DestroyRef, inject, OnInit, ViewEncapsulation } from '@angul
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-// Ng-Zorro modules
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzCardModule } from 'ng-zorro-antd/card';
 import { NzPaginationModule } from 'ng-zorro-antd/pagination';
-import { PatientService } from '../services/patient-service/patient-service';
-import { Patient } from '../shared/patient';
+import { PatientService } from '../services/patient-service/patient.service';
+import { Patient } from '../shared/patient.model';
 import { Router } from '@angular/router';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
@@ -21,6 +21,7 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
     NzInputModule,
     NzCardModule,
     NzPaginationModule,
+    NzIconModule,
   ],
   templateUrl: './patients.html',
   styleUrl: './patients.scss',
@@ -30,6 +31,8 @@ export class Patients implements OnInit {
   private readonly patientService = inject(PatientService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly router = inject(Router);
+
+  isMobile = window.innerWidth <= 600;
 
   patients: Patient[] = [];
 
@@ -41,6 +44,10 @@ export class Patients implements OnInit {
   isLoading = true;
 
   ngOnInit() {
+    window.addEventListener('resize', () => {
+      this.isMobile = window.innerWidth <= 600;
+    });
+
     this.patientService
       .getPatients()
       .pipe(takeUntilDestroyed(this.destroyRef))

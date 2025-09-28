@@ -1,15 +1,15 @@
 import { Component, DestroyRef, inject, OnInit } from '@angular/core';
-import { PatientService } from '../services/patient-service/patient-service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Patient } from '../shared/patient';
+import { Patient } from '../shared/patient.model';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzCardModule } from 'ng-zorro-antd/card';
-import { PatientNote } from '../shared/patient-note';
+import { PatientNote } from '../shared/patient.model';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { switchMap } from 'rxjs';
+import { PatientService } from '../services/patient-service/patient.service';
 
 @Component({
   selector: 'app-patients-profile',
@@ -53,7 +53,7 @@ export class PatientsProfile implements OnInit {
       });
   }
 
-  showMore() {
+  showMore(): void {
     const nextNotes = this.patientNotes.slice(
       this.displayedNotes.length,
       this.displayedNotes.length + this.notesToShow
@@ -65,7 +65,7 @@ export class PatientsProfile implements OnInit {
     return this.displayedNotes.length < this.patientNotes.length;
   }
 
-  goBack() {
+  goBack(): void {
     this.router.navigate(['/patients']);
   }
 }

@@ -1,20 +1,30 @@
 <nz-card nzTitle="Patients" class="patients-card-container" [nzLoading]="isLoading">
   <!-- Filters -->
   <div class="filters">
-    <input nz-input placeholder="Filter Name" [(ngModel)]="nameFilter" />
-    <input nz-input placeholder="Filter DOB" [(ngModel)]="dobFilter" />
-    <input nz-input placeholder="Filter MRN" [(ngModel)]="mrnFilter" />
+    <input nz-input [placeholder]="isMobile ? 'Name' : 'Filter Name'" [(ngModel)]="nameFilter" />
+    <input nz-input [placeholder]="isMobile ? 'DOB' : 'Filter DOB'" [(ngModel)]="dobFilter" />
+    <input nz-input [placeholder]="isMobile ? 'MRN' : 'Filter MRN'" [(ngModel)]="mrnFilter" />
   </div>
+
+  <!-- No patients message -->
+  @if (filteredPatients.length <= 0) {
+    <div class="no-patients-message">
+      <nz-icon nzType="frown" nzTheme="outline" class="no-patients-icon"></nz-icon>
+      <div class="no-patients-text">
+        <em>No patients match the current filters.</em>
+      </div>
+    </div>
+  }
 
   <!-- Patients list -->
   @for(patient of pagedPatients; track patient.medical_record_number){
-  <div class="patients-list">
-    <div class="patient-card" (click)="onPatientClick(patient)">
-      <div class="patient-field"><strong>Name:</strong> {{ patient.first_name }}</div>
-      <div class="patient-field"><strong>DOB:</strong> {{ patient.date_of_birth }}</div>
-      <div class="patient-field"><strong>MRN:</strong> {{ patient.medical_record_number }}</div>
+    <div class="patients-list">
+      <div class="patient-card" (click)="onPatientClick(patient)">
+        <div class="patient-field"><strong>Name:</strong> {{ patient.first_name }}</div>
+        <div class="patient-field"><strong>DOB:</strong> {{ patient.date_of_birth }}</div>
+        <div class="patient-field"><strong>MRN:</strong> {{ patient.medical_record_number }}</div>
+      </div>
     </div>
-  </div>
   }
 
   <!-- Pagination -->

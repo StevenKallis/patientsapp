@@ -1,32 +1,15 @@
 .patients-profile {
-  width: 50%;
-}
-
-.patient-card {
-  cursor: default;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-width: 280px;
+  box-sizing: border-box;
 }
 
 ::ng-deep .ant-card-extra {
   position: absolute;
-
   left: 5px;
   top: 25px;
-}
-
-.back-button {
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  transition: 0.3s;
-  border-radius: 10px;
-  width: 100px;
-  height: 30px;
-  transition: all 0.3s ease;
-
-  &:hover {
-    transform: translateY(-2px);
-    background-color: #388e3c;
-  }
 }
 
 ::ng-deep .ant-card-body {
@@ -35,6 +18,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  animation: fade-in 0.8s ease;
 }
 
 .notes-list {
@@ -44,19 +28,73 @@
   width: 80%;
 }
 
-.load-more-button {
-  background-color: #4caf50;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes button-pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.buttons-style {
+  background: linear-gradient(90deg, #4caf50 0%, #a5d6a7 100%);
   color: #fff;
   border: none;
-  transition: 0.3s;
   border-radius: 10px;
-  height: 30%;
-  width: 20%;
+  height: 30px;
+  width: 120px;
   min-width: auto;
-  transition: all 0.3s ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.12);
+  transition: background 0.4s, transform 0.3s, box-shadow 0.3s;
+  animation: button-pop 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
 
   &:hover {
-    transform: translateY(-2px);
-    background-color: #388e3c;
+    background: linear-gradient(90deg, #388e3c 0%, #81c784 100%);
+    transform: scale(1.07) translateY(-2px);
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.18);
+  }
+}
+
+.back-button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .back-button-wrapper {
+    justify-content: center;
+    width: 100%;
+  }
+  .back-button {
+    width: 100%;
+    max-width: 100%;
+    font-size: 1rem;
+    height: 40px;
   }
 }
